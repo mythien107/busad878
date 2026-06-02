@@ -1,0 +1,206 @@
+{
+  "kpis": {
+    "otif": 80.3,
+    "on_time": 84.8,
+    "in_full": 94.8,
+    "avg_lead_days": 15.6,
+    "total_order_value": 30022163,
+    "orders": 3600
+  },
+  "otif_by_month": [
+    {
+      "month": "2025-05",
+      "otif": 84.5
+    },
+    {
+      "month": "2025-06",
+      "otif": 92.5
+    },
+    {
+      "month": "2025-07",
+      "otif": 87.5
+    },
+    {
+      "month": "2025-08",
+      "otif": 85.9
+    },
+    {
+      "month": "2025-09",
+      "otif": 87.8
+    },
+    {
+      "month": "2025-10",
+      "otif": 67.2
+    },
+    {
+      "month": "2025-11",
+      "otif": 69.0
+    },
+    {
+      "month": "2025-12",
+      "otif": 70.9
+    },
+    {
+      "month": "2026-01",
+      "otif": 85.4
+    },
+    {
+      "month": "2026-02",
+      "otif": 82.6
+    },
+    {
+      "month": "2026-03",
+      "otif": 79.2
+    },
+    {
+      "month": "2026-04",
+      "otif": 86.9
+    },
+    {
+      "month": "2026-05",
+      "otif": 95.6
+    }
+  ],
+  "otif_by_region": [
+    {
+      "supplier_region": "APAC",
+      "otif": 71.5
+    },
+    {
+      "supplier_region": "EMEA",
+      "otif": 78.9
+    },
+    {
+      "supplier_region": "LATAM",
+      "otif": 82.1
+    },
+    {
+      "supplier_region": "North America",
+      "otif": 91.8
+    }
+  ],
+  "otif_by_supplier": [
+    {
+      "supplier": "Pacific Components Co.",
+      "otif": 50.0
+    },
+    {
+      "supplier": "Iberia Logistics SA",
+      "otif": 73.5
+    },
+    {
+      "supplier": "S\u00e3o Paulo Supply",
+      "otif": 74.2
+    },
+    {
+      "supplier": "Shenzhen Precision Ltd",
+      "otif": 74.7
+    },
+    {
+      "supplier": "Rhine Components GmbH",
+      "otif": 84.4
+    },
+    {
+      "supplier": "Bangalore ElectroTech",
+      "otif": 88.8
+    },
+    {
+      "supplier": "Monterrey Assembly",
+      "otif": 88.9
+    },
+    {
+      "supplier": "Allegheny Metals",
+      "otif": 91.6
+    },
+    {
+      "supplier": "Great Lakes Packaging",
+      "otif": 92.1
+    }
+  ],
+  "cost_by_month_rawmaterials": [
+    {
+      "month": "2025-05",
+      "avg_unit_cost": 8.78
+    },
+    {
+      "month": "2025-06",
+      "avg_unit_cost": 8.4
+    },
+    {
+      "month": "2025-07",
+      "avg_unit_cost": 8.88
+    },
+    {
+      "month": "2025-08",
+      "avg_unit_cost": 8.52
+    },
+    {
+      "month": "2025-09",
+      "avg_unit_cost": 8.49
+    },
+    {
+      "month": "2025-10",
+      "avg_unit_cost": 8.74
+    },
+    {
+      "month": "2025-11",
+      "avg_unit_cost": 8.36
+    },
+    {
+      "month": "2025-12",
+      "avg_unit_cost": 9.03
+    },
+    {
+      "month": "2026-01",
+      "avg_unit_cost": 8.58
+    },
+    {
+      "month": "2026-02",
+      "avg_unit_cost": 8.78
+    },
+    {
+      "month": "2026-03",
+      "avg_unit_cost": 10.21
+    },
+    {
+      "month": "2026-04",
+      "avg_unit_cost": 10.89
+    },
+    {
+      "month": "2026-05",
+      "avg_unit_cost": 11.18
+    }
+  ],
+  "anomalies": [
+    {
+      "type": "OTIF drop",
+      "scope": "Iberia Logistics SA \u2014 2025-11",
+      "detail": "OTIF 47% vs supplier baseline 77% (-30 pp) on 34 orders",
+      "severity": 0.296
+    },
+    {
+      "type": "Cost spike",
+      "scope": "Raw Materials \u2014 2026-05",
+      "detail": "avg unit cost $11.18 vs category baseline $8.78 (+27%)",
+      "severity": 0.273
+    },
+    {
+      "type": "Cost spike",
+      "scope": "Raw Materials \u2014 2026-04",
+      "detail": "avg unit cost $10.89 vs category baseline $8.78 (+24%)",
+      "severity": 0.239
+    },
+    {
+      "type": "OTIF drop",
+      "scope": "Shenzhen Precision Ltd \u2014 2025-10",
+      "detail": "OTIF 54% vs supplier baseline 77% (-23 pp) on 41 orders",
+      "severity": 0.233
+    },
+    {
+      "type": "Declining trend",
+      "scope": "Pacific Components Co.",
+      "detail": "OTIF slid from 52% (prior) to 36% (last 90 days), -15 pp",
+      "severity": 0.155
+    }
+  ]
+}
